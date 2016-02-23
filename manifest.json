@@ -1,0 +1,21 @@
+{
+  "name": "Speech to TCP",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description" : "Send spoken text to a TCP port",
+  "icons": { "16": "icons/16x16.png", "48": "icons/48x48.png", "128": "icons/128x128.png" },
+
+  "app": {
+    "default_title": "Speech to TCP",
+      "background": {
+	  "scripts": ["background.js"]
+      }
+  },
+
+    "sockets": {
+        "tcp": { "connect" : "" }
+    },
+    "permissions": [
+	"audioCapture"
+    ]
+}

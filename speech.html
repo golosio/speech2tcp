@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf8">
+    <title>Speech API</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+      input, select, textarea, label, button {
+      font-size: 150%;
+      }
+    </style>
+    <script type="text/javascript" src="stop.js"></script>
+  </head>
+  <body>
+    <form>
+    <div class="speech">
+      <div class="confidence">0</div>
+      <input class="transcript" type="text" size="65" value="..."></div>
+    </div>
+    <br>
+      <div class="radio">
+	<label>
+	  <input type="radio" name="sendRadios" id="sendRadios1" value="option1"> Always send text
+	</label>
+      </div>
+      <div class="radio">
+	<label>
+	  <input type="radio" name="sendRadios" id="sendRadios2" value="option2" checked>
+	  Press button to send text
+	</label>
+	&nbsp &nbsp
+	<button id="sendId">Send text</button>
+      </div>
+      <br>
+      <button id="stopId">Stop</button>
+    </form>
+    <script src="speech.js"></script>
+</body></html>

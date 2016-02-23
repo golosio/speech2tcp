@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 8em 0 0 0;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.speech {
+  
+}
+
+.speech .confidence {
+  color: #292929;
+  text-align: center;
+  font-size: 2em;
+  font-family: Titillium, monospace;
+  padding: 1em;
+}
+
+.speech .transcript {
+  padding: 0.5em;
+  font-size: 2em;
+  font-family: Titillium, sans-serif;
+  color: rgba(255,255,255,1);
+  background: rgba(29,29,29,0.1);
+}
+
+.speech .transcript.final {
+  background: #292929;
+}
